@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
 
-install_requires = ['scipy==0.19.1',
-					'numpy==1.15.2',
-					'tensorflow==1.5.0',
-					'scikit_learn==0.19.1',
-					'Keras==2.0.6',
-					'h5py==2.7.1']
+install_requires = ['scipy >=0.19.1',
+					'numpy >=1.15.2',
+					'tensorflow >=1.5.0',
+					'scikit_learn >=0.19.1',
+					'Keras >=2.0.6',
+					'h5py >=2.7.1']
 
 setup(name='robotsearch',
       author='Iain Marshall',
